@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset='utf-8' />
+        <title>Heimesnekra lydspiller</title>
+
+        <link href='res/css/player.css' rel='stylesheet' />
+        <style>
+            body {background-color: black}
+        </style>
+    </head>
+    <body>
+        <div id='lydspiller' class='wrapper'>
+            <div id='btnPlay' class='play'></div>
+            <audio id='audio'>
+                <source src='res/audio/audio.mp3'>
+            </audio>
+            <progress id='progressbar' min='0' max='100' value='0'></progress>
+            <div id='progressTekst'></div>
+        </div>
+        <script src='res/js/player.js'></script>
+    </body>
+</html>

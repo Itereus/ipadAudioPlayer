@@ -1,0 +1,43 @@
+.wrapper{
+    width: 580px;
+	height: 620px;
+	margin: auto;
+    margin-top: 320px;
+}
+
+#btnPlay{
+    height: 75%;
+	width: 75%;
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+    float:left;
+    margin-left: 12.5%;
+    margin-top: 12.5%;
+}
+
+#progressTekst {
+    font-size: 15px;
+    float: right;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position: relative;
+    bottom: 12;
+    margin-right: 45%;
+}
+
+#progressbar {
+    width: 70%;
+    float: left;
+    position: relative;
+    bottom: -20;
+    margin-left: 15%;
+}
+
+.play {
+    background: url('../img/play.jpg');
+
+}
+.stop{
+    background: url('../img/stop.jpg') ;
+}
